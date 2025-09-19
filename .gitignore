@@ -1,17 +1,6 @@
-# Python
+﻿.venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# venv
-.venv/
-env/
-venv/
-
-# Streamlit
 .streamlit/
-
-# OS
 .DS_Store
 Thumbs.db

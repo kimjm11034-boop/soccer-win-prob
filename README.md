@@ -9,3 +9,5 @@ python -m venv .venv
 . .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python -m streamlit run soccer.app.py
+## 📸 Screenshots
+![MVP 화면](assets/screenshot.png)
