@@ -3,9 +3,10 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
-st.set_page_config(page_title="축구 승률 예측(MVP)", layout="centered")
-st.title("⚽ 승률 예측 - MVP")
-st.caption("입문용: 규칙 + 간단 로지스틱 모델로 손맛 보기")
+st.set_page_config(page_title="축구 승률 예측 – API-FOOTBALL", layout="centered")
+st.title("⚽ 승률 예측 – API-FOOTBALL 연동")
+st.caption("리그/날짜별 경기 조회 → 라인업/이벤트 반영 → 승률 예측 (MVP)")
+
 
 # ---- 임시 가중치(나중에 데이터로 튜닝) ----
 BETA = {
