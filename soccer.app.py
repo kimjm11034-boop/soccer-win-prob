@@ -10,12 +10,8 @@ from dateutil.parser import parse as parse_dt
 st.set_page_config(page_title="축구 승률 예측 – API-FOOTBALL", layout="centered")
 st.title("⚽ 승률 예측 – API-FOOTBALL 연동")
 st.caption("리그/날짜별 경기 조회 → 라인업/이벤트 반영 → 승률 예측 (MVP)")
-<<<<<<< HEAD
-
-=======
 APP_VERSION = "v0.2 (API-FOOTBALL)"
 st.caption(f"현재 파일: {__file__} • 버전: {APP_VERSION}")
->>>>>>> 5aa2b34 (feat: initial commit (soccer.app.py + requirements))
 
 
 # =========================
